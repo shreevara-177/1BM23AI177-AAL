@@ -1,0 +1,36 @@
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	char str[50]="NOBODY NOTICED HIM";
+	char tar[10]="NOT" ;
+	int ans;
+
+	int n=strlen(str);
+	int j=strlen(tar);
+
+	int i;
+	for ( i=0;i<(n-j+1);i++){
+		int k=0;
+		while (k<j){
+			
+			if ((tar[k]==str[i+k]) && k==j-1){
+				ans=i;
+				break;
+			}
+			else if (tar[k]==str[i+k])
+			{
+				k=k+1;
+			}
+			else
+			{
+				break;
+			}
+			
+		}
+	}
+
+	printf("target '%s 'found in  %d position in '%s'",tar,ans+1,str);
+	return 0;
+}
