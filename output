@@ -1,0 +1,130 @@
+1a BUBBLE SORT
+OUTPUT
+Enter the number of elements in the array: 4
+array before bubble sort:
+16 46 76 54 
+
+array after bubble sort:16 46 54 76 
+Count: 1
+Time taken for bubble sort: 0.000002 seconds
+
+1b SELECTION SORT
+OUTPUT
+Enter the number of elements: 4
+Enter the element to be 3
+Enter the element to be 6
+Enter the element to be 1
+Enter the element to be 9
+Elements before sorting  3   6   1   9   
+ ELements after sorting     1     3     6     9  
+
+2 String Matching:
+Output : Target Found in position 16
+
+3a)Merge Sort:
+Enter no. of elements:4
+Enter 4 elements13
+27
+6
+45
+Sorted array: 
+6 13 27 45 
+
+3b)Quick Sort:
+Enter the number of elements: 5
+Enter the elements:
+10
+7
+18
+45
+17
+Original Array: 10 7 18 45 17 
+Sorted Array: 7 10 17 18 45 
+
+4a)Prim's Algorithm:
+Original Graph (Adjacency Matrix):
+ 0 10  0  5  3 
+10  0  1  0  0 
+ 0  1  0  0  4 
+ 5  0  0  0  8 
+ 3  0  4  8  0 
+
+Minimum Spanning Tree (Prim's Algorithm):
+Edge 	Weight
+2 - 1 	1
+4 - 2 	4
+0 - 3 	5
+0 - 4 	3
+
+4b)Kruskal's Algorithm:
+Original Graph (Adjacency Matrix):
+ 0 10  0  5  3 
+10  0  1  0  0 
+ 0  1  0  0  4 
+ 5  0  0  0  8 
+ 3  0  4  8  0 
+
+Minimum Spanning Tree (Kruskal's Algorithm):
+Edge 	Weight
+1 - 2 	1
+0 - 4 	3
+2 - 4 	4
+0 - 3 	5
+
+
+5)Insertion Sort:
+Enter length of elements:4
+Enter 4 elements:
+3
+9
+11
+7
+Original array:
+3 9 11 7 
+Sorted array:
+3 7 9 11 
+
+6)Topological Sort:
+Topological Sort: 5 4 2 3 1 0
+
+7 HEAP SORTING 
+OUTPUT
+Original array: 
+12 11 13 5 6 7 
+Sorted array: 
+5 6 7 11 12 13
+
+8 FLOYDS ALGORITHM
+OUTPUT
+Shortest distances between every pair of vertices:
+      0      3      5      7
+   INF      0      2      3
+   INF   INF      0      1
+   INF   INF   INF      0
+
+
+
+9 N QUEENS
+OUTPUT
+. . Q . 
+Q . . . 
+. . . Q 
+. Q . . 
+
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
+
+
+10 TOPOLOGICAL SORTING
+OUTPUT
+Enter the number of cities: 4
+Enter the distance matrix (0 means no path between cities):
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+The minimum cost to visit all cities and return to the starting point is: 80
+
+
