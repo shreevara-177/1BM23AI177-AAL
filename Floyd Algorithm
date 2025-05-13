@@ -9,7 +9,7 @@ void printSolution(int dist[][V]) {
 	int i;
 int j;
     for ( i = 0; i < V; i++) {
-        for (tj = 0; j < V; j++) {
+        for (j = 0; j < V; j++) {
             if (dist[i][j] == INF)
                 printf("%7s", "INF");
             else
